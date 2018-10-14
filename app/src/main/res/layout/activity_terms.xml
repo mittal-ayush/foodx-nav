@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Terms">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_and_conditions"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+        <TextView
+            android:id="@+id/tnc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:lineSpacingExtra="5sp"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/tnc" />
+
+
+        <!-- sp is to match user's font preference in hs device-->
+
+
+
+
+        <Button
+            android:id="@+id/contd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+
+            android:textStyle="bold"
+            android:text="@string/cont" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

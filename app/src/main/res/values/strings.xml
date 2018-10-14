@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">food x</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="cont">CONTINUE</string>
+    <string name="USER">ANDROID USER</string>
+    <string name="tnc"><![CDATA[1.Please make sure that the food you give is consumable in every respect.
+    2.FoodX serves the right to award negative points in case the quality of food is not up to the mark.
+     3.Points are awarded on the basis of quality and decision of the FoodX team shall be FINAL AND BINDING]]></string>
+
+</resources>
